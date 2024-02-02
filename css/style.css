@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'BrushFontOne';
+    src: url('../BrushFontOne.otf');
+    font-style: normal;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #F3EDDF;
+}
+p, span {
+    font-size: 30px;
+    font-family: BrushFontOne;
+}
+p.text {
+   text-indent: 50px;
+}
+.container {
+    max-width: 700px;
+    padding:  30px 15px 0;
+    margin: 0 auto;
+}
+.center {
+    text-align: center;
+}
+
+.question {
+    display: flex;
+    flex-direction: column;
+}
+form {
+    margin: 50px auto;
+    width: max-content;
+}
+
+label {
+    padding-left: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+.question-text {
+    margin-bottom: 20px;
+}
+input {
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px;
+    cursor: pointer;
+}
